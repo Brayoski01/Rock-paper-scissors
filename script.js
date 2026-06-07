@@ -34,7 +34,7 @@ function playRound(humanChoice, computerChoice){
 
     if(humanChoice.toLowerCase() === 'rock'){
         if(computerChoice === 'Rock'){
-            console.log('Tie!');
+            console.log('Its a Tie!');
         }
         else if(computerChoice === 'Paper'){
             console.log('paper wins!');
@@ -53,7 +53,7 @@ function playRound(humanChoice, computerChoice){
             playerScore += 1;
         }
         else if(computerChoice === 'Paper'){
-            console.log('tie');
+            console.log('its a Tie');
         }
         else if(computerChoice === 'Scissors'){
             console.log('scissors wins!');
@@ -71,8 +71,9 @@ function playRound(humanChoice, computerChoice){
             playerScore += 1;
         }
         else if(computerChoice === 'Scissors'){
-            console.log('tie!');
+            console.log('Its a Tie!');
         }
+        
     }
     console.log('playerscore:', playerScore);
     console.log('Computer score:', computerScore);
